@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Shohijahon\Desktop\zakaz_telegram_bot\env
+set VIRTUAL_ENV=C:\Users\Maxtel\Desktop\zakaz_telegram_bot\env
 
 if not defined PROMPT set PROMPT=$P$G
 
