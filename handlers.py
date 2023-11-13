@@ -14,14 +14,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start(message: types.Message):
-    kb = (
-            [types.KeyboardButton(text="Rangli chop etish")],
-            [types.KeyboardButton(text="Rangsiz chop etish")]
-        )
-    keyboard = types.ReplyKeyboardMarkup(
-        keyboard=kb,
-        resize_keyboard=True,
-    )
+    
     await message.answer(f"Xush Kelibsiz, {hbold(message.from_user.full_name)}", reply_markup=keyboard)
     
 
